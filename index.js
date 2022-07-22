@@ -126,17 +126,17 @@ let prompt;
 while(true) {
    propmt = input("Please enter the number of the habitat you would like to view:");
    if(propmt == 0) {
-      console.log(camel);
+      console.log(habitat[0]);
    } else if(propmt == 1) {
-      console.log(lion);
+      console.log(habitat[1]);
    } else if(propmt == 2) {
-      console.log(deer);
+      console.log(habitat[2]);
    } else if(propmt == 3) {
-      console.log(goose);
+      console.log(habitat[3]);
    } else if(propmt == 4) {
-      console.log(bat);
+      console.log(habitat[4]);
    } else if(propmt == 5) {
-      console.log(rabbit);
+      console.log(habitat[5]);
    } else if(propmt == "exit") {
       console.log("See you later!");
       break;
